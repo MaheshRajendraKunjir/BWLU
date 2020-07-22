@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="scheduleStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jost:wght@500&display=swap" rel="stylesheet">
+
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+
+    /* Navbar section */
+
+    .navbar {
+        position: fixed;
+        width: 100%;
+        background: #fff !important;
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+        transition: .6s;
+        z-index: 10;
+    }
+
+
+    .logo1 {
+        height: 50px;
+        margin: 20px 60px 20px;
+    }
+
+    .navbar-nav {
+        font-family: 'Jost', sans-serif;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        margin-right: 5px;
+    }
+
+        .nav-link:hover {
+            color: orangered !important;
+        }
+
+    nav.sticky {
+        background-color: #fff !important;
+        margin-right: 5px;
+    }
+
+    @media (max-width:768px) {
+
+        .navbar-brand .logo1 {
+            margin-left: 5px !important;
+            height: 40px;
+        }
+    }
+
+    /* footer section */
+    footer {
+        background: #000;
+        color: #fff;
+        font-family: 'josefin sans';
+    }
+
+    .logo2 {
+        height: 50px;
+        margin: 30px 20px 5px;
+    }
+
+    .content1 {
+        margin: 20px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .content2 {
+        margin-top: 50px;
+        margin-left: 30px;
+        font-weight: bold;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        display: inline-block;
+        font-family: 'jost';
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .content4 {
+        margin-left: 30px;
+        font-weight: bold;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        display: inline-block;
+        font-family: 'jost';
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .icons {
+        margin-left: 14%;
+        margin-top: 6%;
+    }
+
+        .icons .icon-link {
+            color: #fff;
+            margin-right: 10px;
+        }
+
+    .content3 {
+        font-size: 15px;
+        margin: 5px 0px 0px 30px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .footer2 {
+        background: #333;
+        color: grey;
+        padding: 3px;
+        text-align: center;
+        font-family: 'josefin sans';
+    }
+</style>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img class="logo1" src="https://letsupgrade.in/img/logo/logo-light.png" alt="logo one">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../about.html" style="color: orangered;">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Profile_Projects/profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Profile_Projects/projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../teamUpdated/team/team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../FAQs/faqs.html">FAQ's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://community.letsupgrade.in/" target="_blank">Blog & Media</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br />
+    <br />
+    <!-- Schedule starts here -->
+    <div class="schedule-section">
+        <div class="inner-width">
+            <h1 class="section-title">Schedule</h1>
+            <div class="border"></div>
+            <div class="schedule-container">
+
+                <div class="schedule-box">
+                    <div class="schedule-icon">
+                        <i class="fa fa-cubes"></i>
+                    </div>
+                    <div class="schedule-title">SCHEDULE-1</div>
+                    <div class="schedule-desc">
+                        Here we will add the First scheduled activity
+                    </div>
+                </div>
+
+                <div class="schedule-box">
+                    <div class="schedule-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="schedule-title">SCHEDULE-2</div>
+                    <div class="schedule-desc">
+                        Here we will add the Second scheduled activity
+                    </div>
+                </div>
+
+                <div class="schedule-box">
+                    <div class="schedule-icon">
+                        <i class="fas fa-bookmark"></i>
+                    </div>
+                    <div class="schedule-title">SCHEDULE-3</div>
+                    <div class="schedule-desc">
+                        Here we will add the Third scheduled activity
+                    </div>
+                </div>
+
+                <div class="schedule-box">
+                    <div class="schedule-icon">
+                        <i class="fas fa-object-ungroup"></i>
+                    </div>
+                    <div class="schedule-title">SCHEDULE-4</div>
+                    <div class="schedule-desc">
+                        Here we will add the Fourth scheduled activity
+                    </div>
+                </div>
+
+                <div class="schedule-box">
+                    <div class="schedule-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="schedule-title">SCHEDULE-5</div>
+                    <div class="schedule-desc">
+                        Here we will add the Fifth scheduled activity
+                    </div>
+                </div>
+
+                <div class="schedule-box">
+                    <div class="schedule-icon">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="schedule-title">SCHEDULE-6</div>
+                    <div class="schedule-desc">
+                        Here we will add the Sixth scheduled activity
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="#">
+                            <img class="logo2" src="https://letsupgrade.in/img/logo-light-new.png" alt="logo two">
+                        </a>
+                        <p class="content1">
+                            LetsUpgrade Community, which is aimed towards providing a learning ecosystem for technology Career Acceleration
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h6 class="content2">SOCIAL MEDIA</h6>
+                        <div class="icons">
+                            <a class="icon-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a class="icon-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a class="icon-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a class="icon-link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <br>
+                            <i class="fa fa-phone" aria-hidden="true"> &nbsp; +917001781191</i>
+
+                            <i class="fa fa-envelope" aria-hidden="true"> &nbsp; letsupgrade@itm.edu</i>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h6 class="content2">MUMBAI</h6><br>
+                        <h6 class="content4"> ADDRESS: </h6>
+                        <p class="content3">
+                            10th Flr, Platinum Technopark, Opp. Vashi Railway Stn, Sector 30, Vashi, Navi Mumbai, Maharashtra 400703
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h6 class="content2">CHENNAI</h6><br>
+                        <h6 class="content4"> ADDRESS: </h6>
+                        <p class="content3">
+                            No. 11/D14, 4th Main Road, SIPCOT IT Park, Old Mahabalipuram Road, Pudupakkam Post, Siruseri, Chennai, Tamil Nadu 603103
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer2">
+                &copy;2020 <span style="font-family: 'jost';">Letsupgrade.</span>
+                All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script>
+      window.addEventListener('scroll', function(){
+        var navbar = document.querySelector('nav');
+        navbar.classList.toggle("sticky", window.scrollY > 0);
+      })
+    </script>
+
+
+</body>
+</html>

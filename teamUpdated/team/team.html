@@ -1,0 +1,1110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+    <title>TEAM</title>
+
+    <link rel="stylesheet" href="team.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jost:wght@500&display=swap" rel="stylesheet">
+
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+
+                /* Navbar section */
+
+                .navbar {
+                    position: fixed;
+                    width: 100%;
+                    background: #fff !important;
+                    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+                    transition: .6s;
+                    z-index: 10;
+                }
+
+
+                .logo1 {
+                    height: 50px;
+                    margin: 20px 60px 20px;
+                }
+
+                .navbar-nav {
+                    font-family: 'Jost', sans-serif;
+                    font-weight: bold;
+                }
+
+                .nav-link {
+                    margin-right: 5px;
+                }
+
+                    .nav-link:hover {
+                        color: orangered !important;
+                    }
+
+                nav.sticky {
+                    background-color: #fff !important;
+                    margin-right: 5px;
+                }
+
+                @media (max-width:768px) {
+
+                    .navbar-brand .logo1 {
+                        margin-left: 5px !important;
+                        height: 40px;
+                    }
+                }
+
+                /* footer section */
+                footer {
+                    background: #000;
+                    color: #fff;
+                    font-family: 'josefin sans';
+                }
+
+                .logo2 {
+                    height: 50px;
+                    margin: 30px 20px 5px;
+                }
+
+                .content1 {
+                    margin: 20px;
+                    font-size: 13px;
+                    line-height: 25px;
+                }
+
+                .content2 {
+                    margin-top: 50px;
+                    margin-left: 30px;
+                    font-weight: bold;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    display: inline-block;
+                    font-family: 'jost';
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                }
+
+                .content4 {
+                    margin-left: 30px;
+                    font-weight: bold;
+                    border-bottom-width: 1px;
+                    border-bottom-style: solid;
+                    display: inline-block;
+                    font-family: 'jost';
+                    font-size: 10px;
+                    letter-spacing: 2px;
+                }
+
+                .icons {
+                    margin-left: 14%;
+                    margin-top: 6%;
+                }
+
+                    .icons .icon-link {
+                        color: #fff;
+                        margin-right: 10px;
+                    }
+
+                .content3 {
+                    font-size: 15px;
+                    margin: 5px 0px 0px 30px;
+                    font-size: 13px;
+                    line-height: 25px;
+                }
+
+                .footer2 {
+                    background: #333;
+                    color: grey;
+                    padding: 3px;
+                    text-align: center;
+                    font-family: 'josefin sans';
+                }
+                /*Footer ends*/
+
+
+
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+
+                img {
+                    width: 14rem !important;
+                    height: 14rem;
+                    /* visibility: hidden; */
+                }
+
+                @media (max-width:767px) {
+                    img {
+                        width: 14rem !important;
+                        height: 14rem;
+                    }
+                }
+
+                .team-page-section {
+                    position: relative;
+                    padding-top: 70px;
+                    background-color: rgb(249, 251, 252);
+                }
+
+                    .team-page-section .team-block {
+                        margin-bottom: 60px;
+                    }
+
+                .sec-title {
+                    position: relative;
+                    z-index: 1;
+                    margin-bottom: 65px;
+                }
+
+                    .sec-title .title {
+                        font-family: Red Hat Display;
+                        position: relative;
+                        font-size: 60px;
+                        color: #FFFFFF;
+                        font-weight: 900;
+                        margin-bottom: 12px;
+                        text-transform: capitalize;
+                        line-height: 79px;
+                    }
+
+                    .sec-title .separator {
+                        position: relative;
+                        width: 40px;
+                        margin-top: 16px !important;
+                    }
+
+                    /* .sec-title .separator:before{
+            position:absolute;
+            content:'';
+            left:0px;
+            top:0px;
+            width:10px;
+            height:2px;
+            background-color:#ff9600;
+        }
+
+        .sec-title .separator:after{
+            position:absolute;
+            content:'';
+            right:0px;
+            top:0px;
+            width:10px;
+            height:2px;
+            background-color:#E20351;
+        }
+
+        .sec-title .separator span{
+            position:absolute;
+            left:50%;
+            top:-2px;
+            width:10px;
+            height:5px;
+            margin-left:-5px;
+            display:inline-block;
+            background-color:#E20351;
+        } */
+
+                    .sec-title h2 {
+                        font-family: Mark Sans;
+                        position: relative;
+                        color: #FFFFFF;
+                        font-style: nomral;
+                        font-weight: normal;
+                        font-size: 22px;
+                        line-height: 1.2em;
+                        margin-top: 35px;
+                    }
+
+                    .sec-title .text {
+                        position: relative;
+                        font-size: 14px;
+                        line-height: 1.9em;
+                        color: #797878;
+                        margin-top: 10px;
+                    }
+
+                    .sec-title.centered .separator {
+                        margin: 0 auto !important;
+                        float: none !important;
+                    }
+
+                    .sec-title.centered {
+                        text-align: center !important;
+                    }
+
+                    .sec-title.light .title {
+                        color: #ffffff;
+                    }
+
+                    .sec-title.light h2 {
+                        color: #ffffff;
+                    }
+
+                    .sec-title.light .separator span {
+                        background-color: #ff9600;
+                    }
+
+                    .sec-title.light .separator:before,
+                    .sec-title.light .separator:after {
+                        background-color: #ffffff;
+                    }
+
+                .team-section {
+                    position: relative;
+                    padding: 80px 0px 60px;
+                }
+
+                    .team-section.style-two .pattern-layer {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        right: 0px;
+                        bottom: 0px;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                    }
+
+                    .team-section .title-box {
+                        position: relative;
+                        text-align: center;
+                    }
+
+                        .team-section .title-box h2 {
+                            position: relative;
+                            color: #222222;
+                            font-size: 36px;
+                            font-weight: 700;
+                            line-height: 1.3em;
+                            margin-bottom: 50px;
+                        }
+
+                            .team-section .title-box h2 span {
+                                color: #ff9600;
+                            }
+
+                .team-block {
+                    position: relative;
+                }
+
+                    .team-block .inner-box {
+                        position: relative;
+                        padding: 40px 70px 28px 0px;
+                    }
+
+                        .team-block .inner-box:before {
+                            position: absolute;
+                            content: '';
+                            right: 0px;
+                            top: 0px;
+                            left: 70px;
+                            bottom: 0px;
+                            border-radius: 10px;
+                            background-color: #a8a7a7;
+                            -webkit-transition: all 600ms ease;
+                            -moz-transition: all 600ms ease;
+                            -ms-transition: all 600ms ease;
+                            -o-transition: all 600ms ease;
+                            transition: all 600ms ease;
+                        }
+
+                        .team-block .inner-box::after {
+                            position: absolute;
+                            content: '';
+                            top: 0px;
+                            left: 70px;
+                            bottom: 0px;
+                            width: 0%;
+                            border-radius: 10px;
+                            -webkit-transition: all 600ms ease;
+                            -moz-transition: all 600ms ease;
+                            -ms-transition: all 600ms ease;
+                            -o-transition: all 600ms ease;
+                            transition: all 600ms ease;
+                            background-image: -ms-linear-gradient(top, #ffca08 0%, #f70067 100%);
+                            background-image: -moz-linear-gradient(top, #ffca08 0%, #f70067 100%);
+                            background-image: -o-linear-gradient(top, #ffca08 0%, #f70067 100%);
+                            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffca08), color-stop(100, #f70067));
+                            background-image: -webkit-linear-gradient(top, #ffca08 0%, #f70067 100%);
+                            background-image: linear-gradient(to bottom, #ffca08 0%, #f70067 100%);
+                        }
+
+                        .team-block .inner-box:hover::after {
+                            width: 81%;
+                        }
+
+                        .team-block .inner-box .social-icons {
+                            position: absolute;
+                            right: 25px;
+                            top: 100px;
+                            z-index: 1;
+                        }
+
+                            .team-block .inner-box .social-icons li {
+                                position: relative;
+                                margin-bottom: 20px;
+                            }
+
+                                .team-block .inner-box .social-icons li a {
+                                    position: relative;
+                                    color: #E20351;
+                                    font-size: 18px;
+                                    -webkit-transition: all 0.4s;
+                                    -moz-transition: all 0.4s;
+                                    -o-transition: all 0.4s;
+                                    transition: all 0.4s;
+                                }
+
+                        .team-block .inner-box:hover .lower-content h3 a,
+                        .team-block .inner-box:hover .social-icons li a,
+                        .team-block .inner-box:hover .lower-content .designation {
+                            color: #f7f4f3;
+                        }
+
+                        .team-block .inner-box .image {
+                            position: relative;
+                            z-index: 1;
+                            border-radius: 10px;
+                            background-color: rgb(150, 146, 146);
+                            box-shadow: inset 0px 0px 35px rgba(0,0,0,0.20);
+                            width: 10rem;
+                            height: 10rem;
+                            margin-left: 3rem;
+                        }
+
+                            .team-block .inner-box .image img {
+                                position: relative;
+                                width: 100%;
+                                display: block;
+                            }
+
+                        .team-block .inner-box .lower-content {
+                            position: relative;
+                            text-align: left;
+                            z-index: 1;
+                            padding: 30px 15px 0px 110px;
+                        }
+
+                            .team-block .inner-box .lower-content h3 {
+                                position: relative;
+                                color: #f7f2f4;
+                                font-size: 15px;
+                                font-weight: 700;
+                                line-height: 1.3em;
+                            }
+
+                                .team-block .inner-box .lower-content h3 a {
+                                    position: relative;
+                                    color: #E20351;
+                                    -webkit-transition: all 0.4s;
+                                    -moz-transition: all 0.4s;
+                                    -o-transition: all 0.4s;
+                                    transition: all 0.4s;
+                                }
+
+                            .team-block .inner-box .lower-content .designation {
+                                position: relative;
+                                margin-top: 22px;
+                                color: #080000;
+                                font-size: 12px;
+                            }
+
+                    .team-block.style-two .inner-box .lower-content h3 a,
+                    .team-block.style-two .inner-box .social-icons li a {
+                        color: #ff9600;
+                    }
+
+                    .team-block.style-two .inner-box:hover .lower-content h3 a,
+                    .team-block.style-two .inner-box:hover .social-icons li a {
+                        color: #ffffff;
+                    }
+
+                    .team-block.style-two .inner-box::after {
+                        background-image: -ms-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
+                        background-image: -moz-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
+                        background-image: -o-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
+                        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFEB3C), color-stop(100, #ff9600));
+                        background-image: -webkit-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
+                        background-image: linear-gradient(to bottom, #FFEB3C 0%, #ff9600 100%);
+                    }
+
+                .map-container-6 {
+                    overflow: hidden;
+                    padding-bottom: 56.25%;
+                    position: relative;
+                    height: 0;
+                }
+
+                    .map-container-6 iframe {
+                        left: 0;
+                        top: 0;
+                        height: 90%;
+                        width: 100%;
+                        position: absolute;
+                    }
+
+                h2 {
+                    font-size: 30px;
+                    text-align: center;
+                    color: black;
+                    padding-top: 10px;
+                    text-shadow: tan;
+                }
+
+                .container-fluid {
+                    background-color: rgb(244, 249, 250);
+                }
+
+                .card {
+                    background-color: rgb(147, 9, 240);
+                    padding: 4px;
+                    border-radius: 10px;
+                }
+
+                .md-form {
+                    margin-top: 10px;
+                }
+
+                .border {
+                    width: 160px;
+                    height: 5px;
+                    background: black;
+                    margin: 10px auto;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    color: black;
+                    font-weight: bold;
+                }
+
+                a {
+                    color: white;
+                }
+
+                .col-lg-7 {
+                    padding-top: 5px;
+                }
+
+                .form-control {
+                    background: white;
+                }
+
+                .card-body {
+                    width: 100%;
+                }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img class="logo1" src="https://letsupgrade.in/img/logo/logo-light.png" alt="logo one">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../about.html" style="color: orangered;">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../Profile_Projects/profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../schedule/schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../Profile_Projects/projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../FAQs/faqs.html">FAQ's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://community.letsupgrade.in/" target="_blank">Blog & Media</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br />
+    <br />
+    <!-- team details start-->
+    <section class="team-page-section">
+        <div class="container">
+            <!-- Sec Title -->
+            <div class="sec-title centered">
+                <div class="title" style="color: black;">Our Team</div>
+                <div class="separator"><span></span></div>
+                <h1 style="color: rgb(253, 64, 6);">"Alone we can do so little; together we can do so much." – Helen Keller</h1>
+            </div>
+
+            <!--/////////////////////////////-->
+            <!--/////////////////////////////-->
+            <!--/////////////////////////////-->
+            <!--/////////////////////////////-->
+            <div class="row clearfix">
+
+                <!-- Team Block 1 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="https://i.ibb.co/J2qTxh4/corey.jpg" alt="" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Corey Ortega</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 2 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="https://i.ibb.co/XJw0G3b/joshua.jpg" alt="" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Joshua Edgeton </h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 3 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="https://i.ibb.co/J2qTxh4/corey.jpg" alt="" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Corey Ortega</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 4 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/Sovam-coder" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/sovam-kumar-pradhan-a9709b1a5" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/shinningshubham" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/sd.jpg" alt="Sovam Pradhan" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Sovam Pradhan</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 5 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://www.github.com/mdarman187" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/mdarman187" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/mdarman_187" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/mdarman.jpg" alt="Md Arman" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Md Arman</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 6 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/Nitin1310" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/nitin-bhopatkar-7a82b6100" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/nitin.ehS" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/nitin.jpg" alt="Nitin Bhopatkar" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Nitin Bhopatkar</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 7 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://www.github.com/aditijhaa9901" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/aditi-jha-959915191" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/imaditi18" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/aditiJha.jpg" alt="Aditi Jha" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Aditi Jha</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 8 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/Virenvkj" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/virengajjar1010" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/viren_vkj" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/viren.jpg" alt="Viren Gajjar" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Viren Gajjar</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 9 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/meghasharma123" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/megha-sharma123" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/megha_5_sharma" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/megha.jpg" alt="Megha Sharma" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Megha Sharma</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 10 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/Rishi-121" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/hrushikesh-das-468101171" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/hrushikesh_das_official" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/hrushikesh.jpg" alt="Hrushikesh Das" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Hrushikesh Das</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 11 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/supriyasinhaa" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/supriya-sinha-41922316a" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/supriyasinhaa" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/supriya.jpg" alt="Supriya Sinha" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Supriya Sinha</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 12 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/Aditi-2840" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/aditi-kumari-856163176" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://instagram.com/aditi_ady2840" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/aditiKumari.jpg" alt="Aditi Kumari" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Aditi Kumari</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 13 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/Kamlesh780" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/kamlesh-jadhav-b672b1169" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/kamlesh__1999" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/kamlesh.jpg" alt="Kamlesh Jadhav" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Kamlesh Jadhav</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 14 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://www.github.com/Adityanshu15" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/adityanshu-adityanshu-05bbb0189" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.instagram.com/strange.adi15" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/adityanshu.jpg" alt="Adityanshu" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Adityanshu</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 15 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/sumit076" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/sumitsaha74" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/sumitsaha8308" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/sumit.jpg" alt="Sumit Saha" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Sumit Saha</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 16 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/SujitJamdade" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/sujit-jamdade-615203178" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/sujit_jamdade" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/sujit.jpg" alt="Sujit Bhausaheb Jamdade" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Sujit Bhausaheb Jamdade</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 17 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/MaheshRajendraKunjir" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/mahesh-kunjir-475a26193" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/mk____9292" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/mahesh.jpg" alt="Mahesh Rajendra Kunjir" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Mahesh Rajendra Kunjir</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Block 18 -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul class="social-icons">
+                            <li><a href="https://github.com/GudalaManojAkhil" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/gudala-manoj-akhil-b2561719a" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                            <li><a href="https://www.instagram.com/gudala_manoj" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <div class="image">
+                            <img src="photos/manoj.jpg" alt="Gudala Manoj Akhil" />
+                        </div>
+                        <div class="lower-content">
+                            <h3>Gudala Manoj Akhil</h3>
+                            <b><div class="designation">Team Lead</div></b>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="container">
+            <!--Section: Contact v.1-->
+            <section class="section pb-5">
+                <!--Section heading-->
+                <center><strong><h1>Contact Us</h1></strong></center>
+                <!--Section description-->
+                <div class="border"></div>
+                <div class="row">
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-7">
+                        <!--Google map-->
+                        <div id="map-container-google-11"
+                             class="z-depth-1-half map-container-6"
+                             style="height: 400px; border-radius: 10px;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15085.595472442395!2d73.0315116!3d19.0461928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab69c6d8c3cac8a4!2sITM%20Institute%20of%20Hotel%20Management%2C%20Nerul!5e0!3m2!1sen!2sin!4v1591979144640!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                                    frameborder="0"
+                                    style="border: 0;"
+                                    allowfullscreen></iframe>
+                        </div>
+
+
+                        <!--Buttons-->
+                        <div class="row text-center">
+                            <div class="col-md-4">
+
+                                <p>10th Flr, Platinum Technopark, Opp. Vashi Railway Stn, Sector 30, Vashi, Navi Mumbai, Maharashtra 400703</p>
+
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <p>
+                                    harshrajsinh.solanki@itm.edu
+
+                                    letsupgrade@itm.edu
+                                </p>
+                                <p>
+                                    sai@itm.edu
+
+                                    letsupgrade@itm.edu
+                                </p>
+                            </div>
+
+                            <div class="col-md-4">
+
+                                <p>No. 11/D14, 4th Main Road, SIPCOT IT Park, Old Mahabalipuram Road, Pudupakkam Post, Siruseri, Chennai,  603103</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <div class="col-lg-5 mb-4">
+                        <!--Form with header-->
+                        <div class="card">
+                            <div class="card-body">
+                                <!--Header-->
+                                <!--Body-->
+                                <h3 style="
+                    font-weight: bold;
+                    font-family: sans-serif;
+                    color: rgb(7, 3, 3);
+                  ">
+                                    WRITE TO US
+                                </h3>
+                                <div class="md-form">
+                                    <label for=""
+                                           style="
+                      font-weight: bold;
+                      color: rgb(12, 5, 5);
+                      font-family: sans-serif;
+                    ">Your name</label>
+                                    <input type="text" id="form-name" class="form-control" />
+                                </div>
+
+                                <div class="md-form">
+                                    <label for=""
+                                           style="
+                      font-weight: bold;
+                      color: rgb(7, 7, 7);
+                      font-family: sans-serif;
+                    ">Your email</label>
+                                    <input type="text" id="form-email" class="form-control" />
+                                </div>
+
+                                <div class="md-form">
+                                    <label for=""
+                                           style="
+                      font-weight: bold;
+                      color: rgb(12, 4, 4);
+                      font-family: sans-serif;
+                    ">Your subject</label>
+                                    <input type="text" id="form-Subject" class="form-control" />
+                                </div>
+
+                                <div class="md-form">
+                                    <label for=""
+                                           style="
+                      font-weight: bold;
+                      color: rgb(10, 3, 3);
+                      font-family: sans-serif;
+                    ">Your message</label>
+                                    <textarea id="form-text"
+                                              class="form-control md-textarea"
+                                              rows="3"></textarea>
+                                </div>
+
+                                <div class="text-center mt-4">
+                                    <button class="btn btn-success btn-md">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Form with header-->
+                    </div>
+                    <!--Grid column-->
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="#">
+                            <img class="logo2" src="https://letsupgrade.in/img/logo-light-new.png" alt="logo two">
+                        </a>
+                        <p class="content1" style="color:white;">
+                            LetsUpgrade Community, which is aimed towards providing a learning ecosystem for technology Career Acceleration
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h6 class="content2">SOCIAL MEDIA</h6>
+                        <div class="icons">
+                            <a class="icon-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a class="icon-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a class="icon-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a class="icon-link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <br>
+                            <i class="fa fa-phone" aria-hidden="true"> &nbsp; +917001781191</i>
+
+                            <i class="fa fa-envelope" aria-hidden="true"> &nbsp; letsupgrade@itm.edu</i>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h6 class="content2">MUMBAI</h6><br>
+                        <h6 class="content4"> ADDRESS: </h6>
+                        <p class="content3" style="color:white;">
+                            10th Flr, Platinum Technopark, Opp. Vashi Railway Stn, Sector 30, Vashi, Navi Mumbai, Maharashtra 400703
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h6 class="content2">CHENNAI</h6><br>
+                        <h6 class="content4"> ADDRESS: </h6>
+                        <p class="content3" style="color:white;">
+                            No. 11/D14, 4th Main Road, SIPCOT IT Park, Old Mahabalipuram Road, Pudupakkam Post, Siruseri, Chennai, Tamil Nadu 603103
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer2">
+                &copy;2020 <span style="font-family: 'jost';">Letsupgrade.</span>
+                All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script>
+        window.addEventListener('scroll', function () {
+            var navbar = document.querySelector('nav');
+            navbar.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+</html>
